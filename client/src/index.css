@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-position: center;
+    background-size:contain; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-image: linear-gradient(178.7deg,rgba(126,184,253,1)5.6%, rgba(2,71,157,1)95.3%);
+  height: 90px;
+}
+.nav-link{
+  font-size: larger;
+}
+.category{
+  margin: 15px   !important;
+  width: auto  !important;
+  background: coral !important;
+  padding: 14px 20px !important;
+  border-radius: 25px  !important;
+  border: none  !important;
+  font-size: 20px  !important;
+}
+.category:hover{
+  transform: scale(1.1) !important;
+}
+.bs{
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+ }
+
+ .custom-carousel {
+  width: 100%; /* Set to your desired width */
+  max-width: 1200px; /* Optional: set a max width */
+  margin: auto; /* Center the carousel */
+}
+
